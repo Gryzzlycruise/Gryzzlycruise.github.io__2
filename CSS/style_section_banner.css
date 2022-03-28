@@ -1,0 +1,77 @@
+.banner{
+    height: 951px;
+    width: 1510px;
+    background-image: url("../Assets/banner.svg");
+    background-position: bottom left;
+}
+.banner__background{
+    height: 951px;
+    width: 1510px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.banner__info{
+    padding: 208px 0 185px 170px;
+    font-family: Raleway;
+    color: #FFFFFF;
+}
+.banner__info img{
+    height: 100px;
+    width: 270px;
+    margin-bottom: 72.88px;
+}
+.banner__info h2{
+    height: 168px;
+    width: 670px;
+    font-weight: 500;
+    font-size: 48px;
+}
+.banner__info__separator{
+    width: 170px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-top: 55.12px;
+}
+.banner__info__description{
+    margin-top: 42px;
+    height: 42px;
+    width: 270px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner__info button{
+    margin-top: 42px;
+    width: 270px;
+    height: 58px;
+    background: transparent;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.banner__inputform{
+    margin-top: 208px;
+    margin-left: 30px;
+    width: 470px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: "Open Sans";
+}
+.banner__inputform h2{
+    height: 90px;
+    width: 367px;
+    margin-left: 53px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+}
+.banner__inputform span{
+    color: #EC7979;
+}
+

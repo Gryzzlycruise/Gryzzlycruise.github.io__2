@@ -1,0 +1,38 @@
+.socials{
+    background: #F8EFEF;
+    width: 1170px;
+    height: 120px;
+    padding: 0 170px 18px;
+    display: flex;
+}
+.socials__icons{
+    padding-top: 35px;
+    display: flex;
+    height: 70px;
+    width: 670px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.socials__text{
+    width: 470px;
+    height: 120px;
+    margin-top: 2px;
+}
+.socials__text__heading{
+    height: 60px;
+    margin-bottom: 18px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #333333;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.socials__text__description{
+    height: 42px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+
+}

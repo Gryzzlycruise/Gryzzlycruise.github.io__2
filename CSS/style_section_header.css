@@ -1,0 +1,23 @@
+header{
+    width: 1510px;
+    height: 75px;
+    background-color: #000000;
+    display: flex;
+}
+.header__logo{
+    width: 183.1px;
+    margin: 0 0 0.15px 115.28px;
+}
+.header__navigation{
+    margin: 1px 0;
+    margin-left: 471.62px;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header__navigation td{
+    width: 113.8px;
+    height: 75px;
+    text-align: center;
+}
