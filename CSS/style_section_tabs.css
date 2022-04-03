@@ -5,8 +5,9 @@
 }
 body {
     background: #FFFFFF;
-    width: 1510px;
-    height: 5548px;
+    width: 100%;
+    max-width: 1510px;
+    max-height: 5548px;
 }
 .firstblock__tabs{
     max-width: 1170px;
@@ -62,7 +63,7 @@ h3{
     text-align: left;
     margin-bottom: 27px;
 }
-button{
+.secondblock__text__button{
     width: 270px;
     height: 58px;
     background: #EC7979;

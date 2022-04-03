@@ -12,13 +12,18 @@
     <link rel="stylesheet" href="CSS/style_section_social.css">
     <link rel="stylesheet" href="CSS/style_section_banner.css">
     <link rel="stylesheet" href="CSS/style_section_header.css">
+    <link rel="stylesheet" href="CSS/style_section_reviews.css">
+    <link rel="stylesheet" href="CSS/style_section_banner2.css">
+    <link rel="stylesheet" href="CSS/style_section_contact.css">
+    <link rel="stylesheet" href="CSS/style_section_footer.css">
+    <link rel="stylesheet" href="CSS/style_hover.css">
 </head>
 <body>
 <header>
     <img class= "header__logo" src="Assets/logo_header.svg" alt="File not found">
     <table class="header__navigation">
         <tr>
-            <td>Features</td><td>About</td><td>Pricing</td><td>Reviews</td><td>Contact</td>
+            <td class="header__navigation__options">Features</td><td class="header__navigation__options">About</td><td class="header__navigation__options">Pricing</td><td class="header__navigation__options">Reviews</td><td class="header__navigation__options">Contact</td>
         </tr>
     </table>
 </header>
@@ -31,10 +36,16 @@
             <p class="banner__info__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </p>
-            <button type="submit">Download</button>
+            <button class="banner__info__button" type="submit">Download</button>
         </div>
         <div class="banner__inputform">
-            <h2>Try Your  <span>&nbspFREE&nbsp</span>  Trial Today</h2>
+            <h2>TRY YOUR  <span>&nbspFREE&nbsp</span>  TRIAL TODAY</h2>
+            <form class="banner__inputform__values" action="#" method="get">
+                <input type="text" name="Name" placeholder="Name">
+                <input type="email" name="Email" placeholder="Email" >
+                <input type="password" name="Password" placeholder="Password">
+            </form>
+            <button class="banner__inputform__button" type="submit">Get Started</button>
         </div>
     </div>
 </div>
@@ -45,13 +56,13 @@
             Aenean euismod bibendum laoreet.</p>
     </div>
     <div class="socials__icons">
-        <img src="Assets/facebook_icon.svg" alt="File not found">
-        <img src="Assets/twitter_icon.svg" alt="File not found">
-        <img src="Assets/linkedin_icon.svg" alt="File not found">
-        <img src="Assets/pinterest_icon.svg" alt="File not found">
-        <img src="Assets/instagram_icon.svg" alt="File not found">
-        <img src="Assets/github_icon.svg" alt="File not found">
-        <img src="Assets/rss_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/facebook_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/twitter_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/linkedin_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/pinterest_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/instagram_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/github_icon.svg" alt="File not found">
+        <img  class="socials__icons__icon" src="Assets/rss_icon.svg" alt="File not found">
     </div>
 </div>
 <div class="firstblock">
@@ -77,7 +88,7 @@
                 <br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                 bibendum laoreet.</p>
-            <button type="submit">Download</button>
+            <button  class="secondblock__text__button" type="submit">Download</button>
         </div>
         <div class="secondblock__image">
             <img src="Assets/Rectangle%20111.svg" alt="File not found">
@@ -151,7 +162,7 @@
                 <li class="pricing__blocks__block__list__space pricing__flex">1 Gb of space</li>
             </ul>
         </div>
-        <div class="pricing__blocks__block2">
+        <div class="pricing__blocks__block">
             <ul class="pricing__blocks__block__list">
                 <li class="pricing__blocks__block__list__title pricing__flex">Optima</li>
                 <li class="pricing__blocks__block__list__price pricing__flex">$20</li>
@@ -179,5 +190,98 @@
         </div>
     </div>
 </div>
+<div class="reviews">
+    <h2 class="reviews__heading">WHAT OUR CUSTOMERS ARE SAYING</h2>
+    <hr class="reviews__separator" />
+    <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="reviews__groups">
+        <div class="reviews__groups__item">
+            <div class="reviews__groups__item__text">
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipisicing elit. Doloribus
+                    accusamus expedita repellat similique <br>
+                    odio aspernatur ex, architecto eaque <br>
+                    quo suscipit.</p>
+            </div>
+            <div class="reviews__groups__item__triangle-down"></div>
+            <div class="reviews__groups__item__temp">
+                <img class="reviews__groups__item__photo" src="Assets/review_1.svg" alt="File not found">
+                <div class="reviews__groups__item__name">
+                    <h2>Davis Rhiel Madsen</h2>
+                    <h3>Manager</h3>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__groups__item">
+            <div class="reviews__groups__item__text">
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipisicing elit. Doloribus
+                    accusamus expedita repellat similique <br>
+                    odio aspernatur ex, architecto eaque <br>
+                    quo suscipit.</p>
+            </div>
+            <div class="reviews__groups__item__triangle-down"></div>
+            <div class="reviews__groups__item__temp">
+                <img class="reviews__groups__item__photo" src="Assets/review_2.svg" alt="File not found">
+                <div class="reviews__groups__item__name">
+                    <h2>Jaydon Rosser</h2>
+                    <h3>Manager</h3>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__groups__item">
+            <div class="reviews__groups__item__text">
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipisicing elit. Doloribus
+                    accusamus expedita repellat similique <br>
+                    odio aspernatur ex, architecto eaque <br>
+                    quo suscipit.</p>
+            </div>
+            <div class="reviews__groups__item__triangle-down"></div>
+            <div class="reviews__groups__item__temp">
+                <img class="reviews__groups__item__photo" src="Assets/review_3.svg" alt="File not found">
+                <div class="reviews__groups__item__name">
+                    <h2>Cooper Dorwart</h2>
+                    <h3>Manager</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banner2">
+    <div class="banner2__background">
+            <h2 class="banner2__heading">STYLISH AXURE DESIGN</h2>
+            <hr class="banner2__separator"/>
+            <p class="banner2__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
+                faster than ever!</p>
+            <button class="banner2__button" type="submit">Download</button>
+    </div>
+</div>
+<div class="contact">
+    <h2 class="contact__heading">contact us</h2>
+    <hr class="contact__separator" />
+    <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="contact__inputform">
+        <form class="contact__inputform__values" action="#" method="get">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="email" name="Email" placeholder="Email" >
+            <input type="password" name="Password" placeholder="Password">
+        </form>
+        <textarea class="contact__inputform__textarea" placeholder="Message"></textarea>
+    </div>
+    <button class="contact__button" type="submit">Send Message</button>
+</div>
+<footer>
+    <div class="footer__icons">
+        <img class="footer__icons__icon" src="Assets/facebook2.svg" alt="File not found">
+        <img class="footer__icons__icon" src="Assets/twitter2.svg" alt="File not found">
+        <img class="footer__icons__icon" src="Assets/linkedin2.svg" alt="File not found">
+        <img class="footer__icons__icon" src="Assets/pinterest2.svg" alt="File not found">
+        <img class="footer__icons__icon" src="Assets/instagram2.svg" alt="File not found">
+        <img class="footer__icons__icon" src="Assets/github2.svg" alt="File not found">
+        <img class="footer__icons__icon" src="Assets/rss2.svg" alt="File not found">
+    </div>
+    <h2 class="footer__text">© 2015 Axure Themes</h2>
+</footer>
 </body>
 </html>

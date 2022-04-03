@@ -1,0 +1,46 @@
+.header__navigation__options:hover{
+    transition-duration: 0.5s;
+    cursor: default;
+    background-color: #EC7979;
+}
+.header__navigation__options:active{
+    transition-duration: 0.5s;
+    cursor: default;
+    background-color: #AB4949;
+}
+.banner__info__button:hover, .banner2__button:hover{
+    transition-duration: 0.5s;
+    cursor: default;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+.banner__info__button:active, .banner2__button:active{
+    transition-duration: 0.5s;
+    cursor: default;
+    color: #FFFFFF;
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+}
+.banner__inputform__button:hover, .secondblock__text__button:hover, .contact__button:hover{
+    transition-duration: 0.5s;
+    cursor: default;
+    color: #FFFFFF;
+    background-color: #AB4949;
+    border: 2px solid #AB4949;
+}
+.banner__inputform__button:active, .secondblock__text__button:active, .contact__button:active{
+    transition-duration: 0.5s;
+    cursor: default;
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+.socials__icons__icon:hover, .footer__icons__icon:hover {
+    transition-duration: 0.5s;
+    cursor: default;
+    transform: scale(1.5);
+}
+.pricing__blocks__block:hover{
+    transition-duration: 0.5s;
+    cursor: default;
+    margin-top: -20px;
+}

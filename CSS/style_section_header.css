@@ -3,13 +3,13 @@ header{
     height: 75px;
     background-color: #000000;
     display: flex;
+    box-sizing: border-box;
 }
 .header__logo{
     width: 183.1px;
     margin: 0 0 0.15px 115.28px;
 }
 .header__navigation{
-    margin: 1px 0;
     margin-left: 471.62px;
     font-family: "Open Sans";
     color: #FFFFFF;
@@ -20,4 +20,8 @@ header{
     width: 113.8px;
     height: 75px;
     text-align: center;
+    border: none;
+}
+table{
+    border-spacing: 0px;
 }

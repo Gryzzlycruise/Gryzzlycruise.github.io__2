@@ -39,7 +39,7 @@
     font-weight: 400;
     font-size: 18px;
 }
-.banner__info button{
+.banner__info__button{
     margin-top: 42px;
     width: 270px;
     height: 58px;
@@ -70,8 +70,40 @@
     justify-content: center;
     align-items: center;
     color: #333333;
+    margin-bottom: 45px;
 }
 .banner__inputform span{
     color: #EC7979;
 }
-
+.banner__inputform__values input{
+    display: flex;
+    flex-direction: column;
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 50px;
+    font-family: "Open Sans";
+    border-bottom: 1px solid #BDBDBD;
+    width: 370px;
+    height: 35px;
+    margin-top: 33px;
+}
+.banner__inputform__button{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 470px;
+    height: 60px;
+    margin-top: 81px;
+    background: #EC7979;
+    color: #FFFFFF;
+}
+input::placeholder{
+    font-family: "Open Sans";
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 400;
+}

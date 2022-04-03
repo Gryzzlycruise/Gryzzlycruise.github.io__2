@@ -1,0 +1,85 @@
+.reviews{
+    width: 1170px;
+    height: 630px;
+    font-family: Raleway;
+    padding: 50px 170px 64px;
+}
+.reviews__heading{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    width: 1170px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.reviews__separator{
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto 40px;
+}
+.reviews__text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 83px;
+}
+.reviews__groups{
+    height: 370px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews__groups__item__text{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    width: 370px;
+    height: 142px;
+    border-radius: 10px;
+    padding-top: 38px;
+    text-align: center;
+    background: #E2E2E2;
+}
+.reviews__groups__item__triangle-down {
+    position: relative;
+    left: 70px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+}
+.reviews__groups__item__photo{
+    width: 70px;
+    height: 70px;
+}
+.reviews__groups__item__temp{
+    display: flex;
+    margin-top: 46px;
+}
+.reviews__groups__item__name{
+    margin-left: 30px;
+    position: relative;
+    top: 12px;
+}
+.reviews__groups__item__name h3{
+    margin-top: 15px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+.reviews__groups__item__name h2{
+    font-family: "Open Sans";
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+}
