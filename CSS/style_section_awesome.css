@@ -87,3 +87,120 @@ h2.groups__item__title{
     width: 370px;
     height: 383px;
 }
+@media only screen and (max-device-width: 830px){
+    .title__heading{
+        font-size: 24px;
+        width: 992px;
+        height: 150px;
+    }
+    .title__separator{
+        width: 142px;
+        margin: 0 auto 32px;
+    }
+    .title{
+        width: 992px;
+        height: 168px;
+        margin: 0 16px 32px;
+    }
+    .title__text{
+        font-size: 14px;
+    }
+    .groups{
+        height: 310px;
+        width: 992px;
+        margin: 0 16px 60px;
+    }
+    .groups__item__image{
+        margin: 34px 118px;
+        width: 80px;
+        height: 80px;
+    }
+    .groups__item__image1{
+        max-height: 57px;
+        max-width: 57px;
+    }
+    .groups__item__image2{
+        max-height: 40px;
+        max-width: 57px;
+    }
+    .groups__item__image3{
+        max-height: 57px;
+        max-width: 38px;
+    }
+    .groups__item__title{
+        width: 318px;
+        height: 82px;
+    }
+    h2.groups__item__title{
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+    .groups__item__text{
+        width: 318px;
+        height: 64px;
+        font-size: 14px;
+    }
+    .groups__item{
+        width: 317px;
+        height: 318px;
+    }
+}
+@media only screen and (max-device-width: 420px){
+    .title__heading{
+        font-size: 18px;
+        width: 288px;
+        height: 120px;
+    }
+    .title__separator{
+        width: 134px;
+        margin: 0 auto 25px;
+    }
+    .title{
+        width: 288px;
+        height: 175px;
+        margin: 0 16px 83.72px;
+    }
+    .title__text{
+        font-size: 13px;
+    }
+    .groups{
+        height: 956px;
+        width: 288px;
+        display: block;
+        margin: 0 16px 60px;
+    }
+    .groups__item__image{
+        margin: 33.72px 105.72px 33.72px 102.72px;
+        width: 79.55px;
+        height: 79.55px;
+    }
+    .groups__item__image1{
+        max-height: 56.46px;
+        max-width: 56.46px;
+    }
+    .groups__item__image2{
+        max-height: 39.78px;
+        max-width: 57.07px;
+    }
+    .groups__item__image3{
+        max-height: 57.07px;
+        max-width: 38.05px;
+    }
+    .groups__item__title{
+        width: 288px;
+        height: 82px;
+    }
+    h2.groups__item__title{
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+    .groups__item__text{
+        width: 288px;
+        height: 80px;
+        font-size: 14px;
+    }
+    .groups__item{
+        width: 288px;
+        height: 318px;
+    }
+}

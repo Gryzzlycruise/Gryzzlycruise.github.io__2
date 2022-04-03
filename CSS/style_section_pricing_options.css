@@ -89,3 +89,101 @@
 .pricing__blocks__block{
     margin-top: 20px;
 }
+@media only screen and (max-device-width: 830px){
+    .pricing{
+        width: 988px;
+        height: 670px;
+        padding: 50px 18px;
+    }
+    .pricing__title__heading{
+        font-size: 24px;
+        width: 992px;
+        height: 120px;
+    }
+    .pricing__title__separator{
+        width: 143px;
+    }
+    .pricing__title{
+        width: 992px;
+        height: 168px;
+        margin-bottom: 50px;
+    }
+    .pricing__title__text{
+        font-size: 14px;
+    }
+    .pricing__blocks{
+        width: 992px;
+        height: 452px;
+    }
+    .pricing__blocks__block__list__title{
+        width: 317px;
+        height: 53px;
+    }
+    .pricing__blocks__block__list__price{
+        width: 317px;
+        height: 89px;
+    }
+    .pricing__blocks__block__list__free{
+        width: 317px;
+        height: 44px;
+    }
+    .pricing__blocks__block__list__space{
+        width: 317px;
+        height: 44px;
+    }
+}
+@media only screen and (max-device-width: 420px){
+    .pricing{
+        width: 288px;
+        height: 1454px;
+        padding: 0px 16px 26px;
+    }
+    .pricing__title__heading{
+        font-size: 24px;
+        width: 288px;
+        height: 120px;
+    }
+    .pricing__title__separator{
+        width: 134px;
+        margin: 0 auto 24px;
+    }
+    .pricing__title{
+        width: 288px;
+        height: 176px;
+        margin-bottom: 24px;
+    }
+    .pricing__title__text{
+        font-size: 14px;
+    }
+    .pricing__blocks{
+        display: block;
+        width: 288px;
+        height: 1254px;
+    }
+    .pricing__blocks__block__list__title{
+        width: 288px;
+        height: 47.06px;
+        font-size: 18px;
+    }
+    .pricing__blocks__block__list__price{
+        width: 288px;
+        height: 76.43px;
+        font-size: 24px;
+    }
+    .pricing__blocks__block__list__free{
+        width: 288px;
+        height: 37.22px;
+        font-size: 14px;
+    }
+    .pricing__blocks__block__list__space{
+        width: 288px;
+        height: 37.22px;
+        font-size: 14px;
+    }
+    .pricing__blocks__block:first-child{
+        margin-top: 0px;
+    }
+    .pricing__blocks__block:not(:first-child){
+        margin-top: 27px;
+    }
+}

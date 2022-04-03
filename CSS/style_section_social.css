@@ -34,5 +34,60 @@
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
-
+}
+@media only screen and (max-device-width: 830px) {
+    .socials{
+        width: 992px;
+        height: 105px;
+        padding: 0 16px 13px;
+    }
+    .socials__icons{
+        padding-top: 25px;
+        height: 64px;
+        width: 570px;
+    }
+    .socials__text{
+        width: 402px;
+        height: 100px;
+    }
+    .socials__text__heading{
+        height: 45px;
+        margin-bottom: 13px;
+        font-size: 18px;
+    }
+    .socials__text__description{
+        height: 32px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-device-width: 420px){
+    .socials{
+        width: 288px;
+        height: 164px;
+        padding: 31px 16px 44px;
+        display: block;
+    }
+    .socials__icons{
+        padding-top: 34.17px;
+        height: 26px;
+        width: 286px;
+        margin-left: 0px;
+    }
+    .socials__text{
+        width: 271px;
+        height: 106px;
+        margin-top: 0px;
+    }
+    .socials__text__heading{
+        height: 45px;
+        margin-bottom: 13px;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    .socials__text__description{
+        height: 48px;
+        font-size: 14px;
+        text-align: center;
+    }
 }

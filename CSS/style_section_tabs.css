@@ -6,8 +6,8 @@
 body {
     background: #FFFFFF;
     width: 100%;
-    max-width: 1510px;
-    max-height: 5548px;
+    width: 1510px;
+    height: 5548px;
 }
 .firstblock__tabs{
     max-width: 1170px;
@@ -82,4 +82,106 @@ h3{
 }
 .firstblock{
     margin: 99px 170px 50px;
+}
+@media only screen and (max-device-width: 830px){
+    body{
+        width: 100%;
+        width: 1024px;
+        height: 4546px;
+    }
+    .firstblock__tabs{
+        max-width: 484px;
+    }
+    .firstblock__tabs__tab1{
+        width: 172px;
+    }
+    .firstblock__tabs__tab2{
+        width: 156px;
+    }
+    .secondblock__text{
+        padding: 0 26px 50px 85px;
+    }
+    .secondblock__text__title{
+        width: 483px;
+        height: 89px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 38px;
+    }
+    .secondblock__text__article {
+        width: 483px;
+        height: 112px;
+        font-size: 14px;
+        margin-bottom: 38px;
+    }
+    .secondblock__text__button{
+        width: 232px;
+        height: 58px;
+    }
+    .secondblock__image{
+        margin-top: 1px;
+        height: 385px;
+        width: 398px;
+        overflow: hidden;
+    }
+    .secondblock__image img{
+        width: 100%;
+    }
+    .firstblock{
+        margin: 50px 16px;
+        width: 992px;
+        height: 425px;
+    }
+}
+@media only screen and (max-device-width: 420px){
+    body{
+        width: 100%;
+        width: 320px;
+        height: 6443px;
+    }
+    .firstblock__tabs{
+        max-width: 288px;
+        max-height: 40px;
+    }
+    .firstblock__tabs__tab1{
+        width: 102.86px;
+    }
+    .firstblock__tabs__tab2{
+        width: 93px;
+    }
+    .secondblock__text{
+        width: 242.74px;
+        height: 401px;
+        padding: 0 20.57px 30px 24.69px;
+    }
+    .secondblock__text__title{
+        width: 242.74px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 24.51px;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    .secondblock__text__article {
+        width: 242.74px;
+        height: 180px;
+        font-size: 13px;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    .secondblock__text__button{
+        width: 242.74px;
+        height: 50px;
+    }
+    .secondblock{
+        display: block;
+    }
+    .secondblock__image{
+        display: none;
+    }
+    .firstblock{
+        margin: 41px 16px 0;
+        width: 288px;
+        height: 470px;
+    }
 }

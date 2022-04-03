@@ -19,3 +19,29 @@ footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
+@media only screen and (max-device-width: 830px){
+    footer{
+        width: 1024px;
+    }
+    .footer__icons{
+        height: 45px;
+        width: 482px;
+        margin-bottom: 38px;
+    }
+    .footer__text{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-device-width: 420px){
+    footer{
+        width: 320px;
+    }
+    .footer__icons{
+        height: 26px;
+        width: 286px;
+        margin-bottom: 42px;
+    }
+    .footer__text{
+        font-size: 14px;
+    }
+}

@@ -25,3 +25,40 @@ header{
 table{
     border-spacing: 0px;
 }
+.header__menu{
+    display: none;
+}
+@media only screen and (max-device-width: 830px) {
+    header{
+        width: 1024px;
+        height: 75px;
+        background-color: #000000;
+        display: flex;
+        box-sizing: border-box;
+    }
+    .header__navigation{
+        margin-left: 139.62px;
+    }
+    .header__menu{
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 420px){
+    header{
+        width: 320px;
+        height: 56px;
+    }
+    .header__logo{
+        width: 130px;
+        margin-left: 20px;
+    }
+    .header__navigation{
+    display: none;
+    }
+    .header__menu{
+        display: inline;
+        height: 56px;
+        width: 55px;
+        margin-left: 95px;
+    }
+}
